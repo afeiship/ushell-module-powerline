@@ -59,3 +59,5 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
 - https://github.com/powerline/fonts
 - https://medium.com/@ITZDERR/how-to-install-powerline-to-pimp-your-bash-prompt-for-mac-9b82b03b1c02
 - https://www.jianshu.com/p/442ae2a05e55
+- http://hkkhuang.cn/2019/01/23/%E5%9C%A8vscode%E4%B8%AD%E8%AE%BE%E7%BD%AE%E6%98%BE%E7%A4%BAPowerline%E5%AD%97%E4%BD%93/
+- https://dev.to/mattstratton/making-powerline-work-in-visual-studio-code-terminal-1m7
