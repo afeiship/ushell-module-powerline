@@ -2,6 +2,11 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
+
+# Set encode:
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # use `pip3 show powerline-status` get the path:
 POWERLINE_SITE_PACKAGES_PATH=/usr/local/lib/python3.7/site-packages
 

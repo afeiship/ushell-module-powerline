@@ -35,7 +35,15 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
    cp -r /usr/local/lib/python3.6/site-packages/powerline/config_files/ ~/.config/powerline/
    ```
 
+6. Make sure you system `locale` has utf8 encoding, Or your have to add to your `.bashrc` file
+   ```shell
+    # Set encode:
+    export LC_ALL=en_US.UTF-8
+    export LANG=en_US.UTF-8
+   ```
+
 ## resources
+- https://github.com/powerline/powerline
 - https://medium.com/henrystime/geek-196fce04ca24
 - https://github.com/powerline/fonts
 - https://medium.com/@ITZDERR/how-to-install-powerline-to-pimp-your-bash-prompt-for-mac-9b82b03b1c02
