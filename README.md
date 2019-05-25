@@ -42,6 +42,17 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
     export LANG=en_US.UTF-8
    ```
 
+## support for vscode
+1. Open setting.json
+   ![](https://ws3.sinaimg.cn/large/006tNc79gy1g3dk4u8ixjj314k0guaes.jpg)
+
+2. Add this config
+   ```json
+   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+   ```
+3. Enjoy coding!
+   ![](https://ws3.sinaimg.cn/large/006tNc79gy1g3dk5p4f1lj30m404c0t3.jpg)
+
 ## resources
 - https://github.com/powerline/powerline
 - https://medium.com/henrystime/geek-196fce04ca24
