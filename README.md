@@ -50,9 +50,11 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
    ```json
    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
    ```
-3. Enjoy coding!
-   ![](https://ws3.sinaimg.cn/large/006tNc79gy1g3dk5p4f1lj30m404c0t3.jpg)
+3. Mac default terminal setting
    ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g909duvkbrj31gk0u0486.jpg)
+
+4. Enjoy coding!
+    ![](https://ws3.sinaimg.cn/large/006tNc79gy1g3dk5p4f1lj30m404c0t3.jpg)
 
 
 ## resources
