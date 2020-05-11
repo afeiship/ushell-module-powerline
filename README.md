@@ -8,7 +8,17 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
 
 ## configuration
 > Set config step by step.
-
+0. Install fonts
+   ```shell
+   # clone
+   git clone https://github.com/powerline/fonts.git --depth=1
+   # install
+   cd fonts
+   ./install.sh
+   # clean-up a bit
+   cd ..
+   rm -rf fonts
+   ```
 1. install `python3`
    ```shell
    brew install python3
@@ -59,6 +69,7 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
 
 ## resources
 - https://github.com/powerline/powerline
+- https://github.com/powerline/fonts
 - https://medium.com/henrystime/geek-196fce04ca24
 - https://github.com/powerline/fonts
 - https://medium.com/@ITZDERR/how-to-install-powerline-to-pimp-your-bash-prompt-for-mac-9b82b03b1c02
