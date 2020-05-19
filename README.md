@@ -21,6 +21,7 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
    ```
 1. install `python3`
    ```shell
+   # 这里如果安装慢，或者出错，可以换 brew 源解决问题
    brew install python3
    ```
 2. Install `powerline-status`
@@ -34,6 +35,7 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
 4. Add to your `.bashrc`
    ```shell
     # Powerline
+    # 这里可以不需要了，用现在的 `ushell-module-powerline` 代替即可
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
@@ -41,7 +43,9 @@ npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao
    ```
 5. Now, create a configuration directory for powerline in your home.
    ```shell
-   mkdir ~/.config/powerline
+   mkdir -p ~/.config/powerline
+
+   # 这里的 python3.6 根据实际情况换掉
    cp -r /usr/local/lib/python3.6/site-packages/powerline/config_files/ ~/.config/powerline/
    ```
 
