@@ -1,5 +1,5 @@
 {
-  "name": "ushell-module-powerline",
+  "name": "@feizheng/ushell-module-powerline",
   "version": "1.0.0",
   "description": "Unix shell module for powerline.",
   "main": "index.sh",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-powerline/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-powerline"
+  "homepage": "https://github.com/afeiship/ushell-module-powerline",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

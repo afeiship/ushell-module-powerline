@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S afeiship/ushell-module-powerline --registry=https://registry.npm.taobao.org
+npm i -S @feizheng/ushell-module-powerline
 ```
 
 ## configuration
