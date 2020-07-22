@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/ushell-module-powerline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix shell module for powerline.",
   "main": "index.sh",
   "repository": {
