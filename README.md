@@ -39,14 +39,14 @@ npm i -S @feizheng/ushell-module-powerline
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
-    source /usr/local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
+    source /usr/local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
    ```
 5. Now, create a configuration directory for powerline in your home.
    ```shell
    mkdir -p ~/.config/powerline
 
-   # 这里的 python3.6 根据实际情况换掉
-   cp -r /usr/local/lib/python3.6/site-packages/powerline/config_files/ ~/.config/powerline/
+   # 这里的 python3.8 根据实际情况换掉
+   cp -r /usr/local/lib/python3.8/site-packages/powerline/config_files/ ~/.config/powerline/
    ```
 
 6. Make sure you system `locale` has utf8 encoding, Or your have to add to your `.bashrc` file
