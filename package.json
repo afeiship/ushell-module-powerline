@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/ushell-module-powerline",
-  "version": "1.0.1",
+  "name": "@jswork/ushell-module-powerline",
+  "version": "1.0.0",
   "description": "Unix shell module for powerline.",
   "main": "index.sh",
   "repository": {
@@ -9,9 +9,8 @@
   },
   "keywords": [
     "ushell",
-    "unix",
-    "shell",
-    "ushell-module-powerline"
+    "powerline",
+    "terminal"
   ],
   "authors": [
     "feizheng <1290657123@qq.com>"
